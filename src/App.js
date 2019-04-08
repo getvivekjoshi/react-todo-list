@@ -7,19 +7,20 @@ import TodoList from './components/TodoList';
 
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="container">
-          <div className="row">
-            <TodoInput />
-            <TodoList />
+    render() {
+        return (
+            //test for netlifys
+            <div className="App">
+                <div className="container">
+                    <div className="row">
+                        <TodoInput />
+                        <TodoList />
 
-          </div>
-        </div>
-      </div>
-    );
-  }
+                    </div>
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;
